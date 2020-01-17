@@ -1,11 +1,7 @@
 /*
  *  整体样式
- *  ---------------------------------------
- *  作者: haibao(http://www.hehaibao.com/)
- *  企鹅：964279742
- *  创意源于生活，代码如诗从你我开始
  */
-html, body{width:100%;height:100%;background-color:#2ec7e4;}
+ html, body{width:100%;height:100%;background-color:#e02727;}
 body,header,div,p,span,h1,img,ul,li,h1,h2,h3,h4,strong{margin:0;padding:0;}
 body{max-width:640px;margin:0 auto;overflow-x:hidden;line-height:24px;color:#666;font-size:14px;font-family:"Helvetica","Microsoft Yahei","微软雅黑",sans-serif;-webkit-overflow-scrolling:touch;}
 a,button,input{-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-appearance:none;}
@@ -33,7 +29,6 @@ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {  -webkit-text-size-
 @keyframes zoomOut { 0% { opacity: 0; transform: scale(.6); } 100% { opacity: 1; transform: scale(1); } }
 
 /*主体样式*/
-#banner{height:125px;background:url('../img/banner.png') no-repeat center top;background-size:100% 100%;}
 #logo{width:16%;margin:1% 0 0 2%;}
 .rule_box{width:100%;position:absolute;bottom:20px;left:0;}
 .rules{display:inline-block;background-color:#41d1eb;color:#fff;padding:1px 10px;border-radius:10px;box-shadow:1px 1px 2px #24badb;}
@@ -57,7 +52,7 @@ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {  -webkit-text-size-
 #cards{width:266px;height:370px;margin:11px auto auto;position: relative;}
 .card{width:80px;height:80px;position:absolute;-webkit-animation:flips2 .3s ease both;animation:flips2 .3s ease both;}
 .face{width: 100%;height: 100%;position: absolute;z-index: 10;-webkit-transition:all .3s ease;transition:all .3s ease;border-radius:5px;-webkit-backface-visibility:hidden;backface-visibility:hidden;}
-.front{background:#2EC7E4;background-size:contain;z-index:12;}
+.front{background:#e02727;background-size:contain;z-index:12;}
 .back{background-color:#fff;-webkit-transform:rotateY(-180deg);transform:rotateY(-180deg);z-index:10;}
 .back.flip{z-index:13;-webkit-animation:flips .3s ease-in both;animation:flips .3s ease-in both;}
 .card-flipped .front{z-index:10;-webkit-transform:rotateY(180deg); transform: rotateY(180deg);}
@@ -71,7 +66,6 @@ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {  -webkit-text-size-
 .popover,.popover_{height:100%;top:0;left:0;z-index:99998;background-color:rgba(0,0,0,.7);}
 .popover_{position:absolute;}
 .modal_{width:92%;margin:10% auto auto;}
-.close_btn{width:40px;height:40px;display:block;background:url('../img/close_btn.png') no-repeat center center;background-size:60%;position:fixed;top:8%;right:0;z-index:99999;}
 .modal{width:90%;position:fixed;top:15%;left:5%;z-index:99999;}
 .t1{width:210px;margin-bottom:20px;}
 .rule_title{color: #0cf6ee;font-size: 1.2rem;margin-bottom: 10px;font-weight: 700;letter-spacing: 3px;}
@@ -79,15 +73,7 @@ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {  -webkit-text-size-
 #rule_desc p{color:#0cf6ee;font-size:.8rem;line-height:24px;letter-spacing:1px;margin-bottom:5px;}
 #mobile_box{border-top:1px solid #0cf6ee;padding-top:20px;}
 #mobile_ipt{width:70%;padding:12px 10px;color:#333;font-size:1rem;background-color:#fff;border-radius:5px;border:0 none;}
-.start{width:180px;height:50px;margin-top:25px;display:inline-block;background:url('../img/start_btn2.png') no-repeat center center;background-size:84%;}
-.start.active{background:url('../img/start_btn.png') no-repeat center center;background-size:84%;}
 .head{width:100%;height:55px;border-top-left-radius:3px;border-top-right-radius:3px;}
-.m2 .head{background:#08dbe7 url('../img/t2.jpg') no-repeat center center;background-size:100% 100%;}
-.m3 .head{background:#08dbe7 url('../img/t3.jpg') no-repeat center center;background-size:100% 100%;}
-.m4 .head{background:#08dbe7 url('../img/t4.jpg') no-repeat center center;background-size:100% 100%;}
-.m5 .head{background:#08dbe7 url('../img/t5.jpg') no-repeat center center;background-size:100% 100%;}
-.m7 .head{background:#08dbe7 url('../img/t6.jpg') no-repeat center center;background-size:cover;}
-.m8 .head,.m6 .head,.m9 .head{background:#01f6f6 url('../img/t7.png') no-repeat;background-size:100% 100%;height:30px;}
 .contents{background-color:#fff;padding:20px;min-height:80px;border-bottom-left-radius:3px;border-bottom-right-radius:3px;}
 .m2 .contents{height:245px;font-size:.8rem;overflow:auto;-webkit-overflow-scrolling:touch;}
 .m2 .contents p{color:#9a9a9a;line-height:18px;margin-bottom:5px;letter-spacing:1px;}

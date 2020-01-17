@@ -50,6 +50,7 @@ var hasClass = (function () {
     };
   }
 })();
+import { Button } from 'vant';
 
 export default {
   data () {
